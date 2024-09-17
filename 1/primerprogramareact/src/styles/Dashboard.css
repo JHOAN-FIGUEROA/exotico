@@ -1,0 +1,11 @@
+/* Estilo del contenedor del Dashboard */
+.dashboard {
+  display: flex;
+}
+
+/* Estilo del contenido del Dashboard */
+.dashboard-content {
+  margin-left: 250px; /* Deja espacio para el Sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Ajusta el ancho para el Sidebar */
+}

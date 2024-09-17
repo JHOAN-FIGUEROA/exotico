@@ -1,0 +1,144 @@
+.Contenedor {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="date"]::placeholder {
+  color: #aaa;
+}
+
+.select{
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #7684bf;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #7684bf;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin: 5px 0;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla th {
+  background-color: #7684bf;
+  color: white;
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla tr:hover {
+  background-color: #ddd;
+}
+
+
+.tabla button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.tabla button:hover {
+  color: #7684bf;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: black;
+  color: #333;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.page-button.active {
+  background-color: #7684bf;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.page-button:hover {
+  background-color: black;
+}
+
+input[name="cantidad"], input[name="precioUnitario"] {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+input[name="cantidad"] {
+  color: #7684bf;
+}
+
+input[name="precioUnitario"] {
+  color: #7684bf;
+}
+
+input[name="cantidad"]:focus, input[name="precioUnitario"]:focus {
+  border-color: #7684bf;
+  outline: none;
+}

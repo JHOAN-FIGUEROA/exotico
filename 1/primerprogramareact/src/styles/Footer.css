@@ -1,0 +1,62 @@
+.container-footer{
+    background-color: #7684bf;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+}
+
+.logof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logof img{
+    width: 200px; 
+    cursor: pointer;
+    filter: invert(1) brightness(1.5); 
+}
+
+.grid h2{
+    color: white;
+}
+
+.grid ul{
+    list-style: none;
+}
+
+.grid li{
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 16px;
+    padding: 20px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    justify-content: center;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos button{
+    color: white;
+    width: 50px;
+}
